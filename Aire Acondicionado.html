@@ -1,0 +1,536 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Aires Acondicionados</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+</script>
+
+
+<style type="text/css">
+body{
+  zoom: 0%;
+}
+
+/* BackToTop button css */
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#2fff00;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+
+input{
+font:bold 25px Verdana;
+text-decoration:none;
+color:#a29693;
+border:4px solid #a29693;
+padding:10px 20px 10px 20px;
+border-radius:5px;
+transition:background .5s, color .5s;
+}
+
+input:hover{
+background:#0DFF11;
+color:#040CFF;
+}
+
+
+
+
+
+
+*{
+       margin:0px;
+       padding;0px;
+}
+#general{
+       margin:auto;
+       width:960px;
+       height:220px; 
+       background-color:"red";
+       margin-top:10px;
+}
+#head{
+       width:960px;
+       height:334px;
+       background-image:url(imagenes/Logo1.jpg);
+       margin-top:0px;
+}
+#menu{
+	margin:auto;
+	width:960px;
+	height:30px;
+	background-color: #999;        
+	font-family:georgia, Geneva, sans-serif;	
+}
+ul,ol{
+	list-style:none;
+}
+.nav li a{
+	background-color:#999;
+	color:white;
+	text-decoration:none;
+	padding:4.4px 40px;
+	display:block;
+}
+.nav li a:hover{
+	background-color:#FF0;
+	color:#999;
+}
+.nav > li{
+	float:left;
+}
+.nav li ul{
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+.nav li:hover > ul{
+	display:block;		
+}
+.nav li ul li{
+	position:relative;
+}
+.nav li ul li ul{
+	right:-130px;
+	top:0px;
+}
+#cuerpo{
+       width:960px;
+       height:4900px;
+       background-image:url(imagenes/Fondo5.jpg);
+       margin-top:0px;
+}
+#efecto{
+       width:960px;
+       height:90px;
+       background-image:url(imagenes/p1.png);
+       margin-top:0px;
+}
+#Derechos{
+       width:960px;
+       height:110px;
+       background-image:url(imagenes/J2.png);
+       margin-left:0px;
+       margin-top:0px;
+}
+#Contenido{
+       margin:auto;
+       width:278px;
+       height:280px;
+       background-image:url(imagenes/Aires/J1.png);
+       margin-top:0px;
+
+}
+#Contenido2{
+       margin:auto;
+       width:278px;
+       height:280px;
+       background-image:url(imagenes/Aires/J2.png);
+       margin-top:0px;
+
+}
+#Contenido3{
+       margin:auto;
+       width:278px;
+       height:280px;
+       background-image:url(imagenes/Aires/J3.png);
+       margin-top:0px;
+
+}
+
+#Contenido4{
+       margin:auto;
+       width:278px;
+       height:280px;
+       background-image:url(imagenes/Aires/J4.png);
+       margin-top:0px;
+
+}
+
+#Contenido5{
+       margin:auto;
+       width:278px;
+       height:280px;
+       background-image:url(imagenes/Aires/J5.png);
+       margin-top:0px;
+
+}
+
+
+#Contenido6{
+       margin:auto;
+       width:278px;
+       height:280px;
+       background-image:url(imagenes/Aires/J6.png);
+       margin-top:0px;
+
+}
+
+#Contenido7{
+       margin:auto;
+       width:278px;
+       height:280px;
+       background-image:url(imagenes/Aires/J7.png);
+       margin-top:0px;
+
+}
+
+
+
+
+
+
+</style>
+</head>
+<body background="imagenes/Fondo3.jpg">
+
+<!-- BackToTop Button -->
+<a href="javascript:void(0);" id="scroll" title="Ir hacia arriba" style="display: none;">Top<span></span></a>
+<div id="general">
+      <div id="head">
+      </div> 
+ <div id="menu">
+    <ul class="nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Celulares.html">Celulares</a></li>
+        <li><a href="">Computadoras</a>
+            <ul>
+                <li><a href="Laptos.html">Laptos</a></li>
+                <li><a href="Escritorio.html">Computadoras de Escritorio</a></li>
+                <li><a href="Monitores.html">Monitores</a></li>
+                <li><a href="Impresoras.html">Impresoras</a></li>
+            </ul></li>
+
+        <li><a href="Television.html">Television</a></li>
+        <li><a href="">Audio</a>
+            <ul>
+                <li><a href="Audifonos.html">Audifonos</a></li>
+                <li><a href="Parlantes.html">Parlantes Portatiles</a></li>
+                <li><a href="Equipos.html">Equipos de Sonido</a></li>
+            </ul></li>
+
+        <li><a href="">Linea Blanca</a>
+            <ul>
+                <li><a href="Refrijeradoras.html">Refrijeradoras</a></li>
+
+                <li><a href="Aire Acondicionado.html">Aire Acondicionado</a></li>
+               
+            </ul></li>
+
+</div> 
+      <div id="cuerpo">
+
+      <div id="efecto">
+      </div>  
+      <div id="Contenido">
+      </div>  
+      <div id="info">
+      <center><table border="2">
+      <tr>
+      <th bgcolor="#26E836"><center><h2>Aire Acondicionado Frigidaire basico de 12,000 BTU</h2></center></th><p>
+      </tr>
+      &nbsp<p>
+      <tr>
+      <td bgcolor="white">
+      &nbsp<p>
+
+      <p><center>Capacidad - <B>12,000 BTU</B></center></p>
+      <p><center>Tecnologia Compresor - <b>Basico</b></center></p>
+      <p><center>Color - <b>Silver</b></center></p>
+      <p><center>Eficiencia Electrica - <b>SEER 10</b></center></p>
+      <p><center>Refrijerante - <b>R410A</b></center></p>
+      &nbsp<p>
+      <center><h3><font color="Blue"><b>Envio Gratis</b></font></h3></center>
+      &nbsp<p>
+      <center> <H2><font color=red><i>L 6,995</i></font></h2>
+
+
+ &nbsp<p>
+     <P><a href="A01.html"><INPUT type=submit  value="Comprar"></a> </p>
+      &nbsp<p>
+      <hr size=1 color="blue">
+      &nbsp<p>
+      </td>
+      </table>
+      &nbsp<p>  
+      <hr size=1 color="blue">
+      </div>
+      &nbsp<p>
+
+
+      <div id="Contenido2">
+      </div>  
+      <div id="info">
+      <center><table border="2">
+      <tr>
+      <th bgcolor="#26E836"><center><h2>Aire Acondicionado Frigidaire basico de 12,000 BTU</h2></center></th><p>
+      </tr>
+      &nbsp<p>
+      <tr>
+      <td bgcolor="white">
+      &nbsp<p>
+
+      <p><center>Capacidad - <B>12,000 BTU</B></center></p>
+     
+      <p><center>Tecnologia Compresor - <b>Basico</b></center></p>
+      <p><center>Color - <b>Silver</b></center></p>
+      <p><center>Eficiencia Electrica - <b>SEER 10</b></center></p>
+      <p><center>Refrijerante - <b>R410A</b></center></p>
+      &nbsp<p>
+      <center><h3><font color="Blue"><b>Envio Gratis</b></font></h3></center>
+      &nbsp<p>
+      <center> <H2><font color=red><i>L 13,700.00</i></font></h2>
+
+ &nbsp<p>
+     <P><a href="A02.html"><INPUT type=submit  value="Comprar"></a> </p>
+      &nbsp<p>
+      <hr size=1 color="blue">
+      &nbsp<p>
+      </td>
+      </table>
+      &nbsp<p>  
+      <hr size=1 color="blue">
+      </div>
+      &nbsp<p>
+
+
+      <div id="Contenido3">
+      </div>  
+      <div id="info">
+      <center><table border="2">
+      <tr>
+      <th bgcolor="#26E836"><center><h2>Aire Acondicionado Frigidaire basico de 22,000 BTU</h2></center></th><p>
+      </tr>
+      &nbsp<p>
+      <tr>
+      <td bgcolor="white">
+      &nbsp<p>
+
+      <p><center>Capacidad - <B>22,000 BTU</B></center></p>
+     
+      <p><center>Tecnologia Compresor - <b>Basico</b></center></p>
+      <p><center>Color - <b>Silver</b></center></p>
+      <p><center>Eficiencia Electrica - <b>SEER 16</b></center></p>
+      <p><center>Refrijerante - <b>R410A</b></center></p>
+      &nbsp<p>
+      <center><h3><font color="Blue"><b>Envio Gratis</b></font></h3></center>
+      &nbsp<p>
+      <center> <H2><font color=red><i>L 23,505.00</i></font></h2>
+ &nbsp<p>
+     <P><a href="A03.html"><INPUT type=submit  value="Comprar"></a> </p>
+      &nbsp<p>
+      <hr size=1 color="blue">
+      &nbsp<p>
+      </td>
+      </table>
+      &nbsp<p>  
+      <hr size=1 color="blue">
+      </div>
+      &nbsp<p>
+
+
+
+      <div id="Contenido4">
+      </div>  
+      <div id="info">
+      <center><table border="2">
+      <tr>
+      <th bgcolor="#26E836"><center><h2>Aire Acondicionado Frigidaire basico de 18,000 BTU</h2></center></th><p>
+      </tr>
+      &nbsp<p>
+      <tr>
+      <td bgcolor="white">
+      &nbsp<p>
+
+      <p><center>Capacidad - <B>18,000 BTU</B></center></p>
+      <p><center>Tecnologia Compresor - <b>Inverter</b></center></p>
+      <p><center>Color - <b>Silver</b></center></p>
+      <p><center>Eficiencia Electrica - <b>SEER 16</b></center></p>
+      <p><center>Refrijerante - <b>R410A</b></center></p>
+      &nbsp<p>
+      <center><h3><font color="Blue"><b>Envio Gratis</b></font></h3></center>
+      &nbsp<p>
+      <center> <H2><font color=red><i>L 19,000.00</i></font></h2>
+
+
+ &nbsp<p>
+     <P><a href="A04.html"><INPUT type=submit  value="Comprar"></a> </p>
+      &nbsp<p>
+      <hr size=1 color="blue">
+      &nbsp<p>
+      </td>
+      </table>
+      &nbsp<p>  
+      <hr size=1 color="blue">
+      </div>
+      &nbsp<p>
+
+
+      <div id="Contenido5">
+      </div>  
+      <div id="info">
+      <center><table border="2">
+      <tr>
+      <th bgcolor="#26E836"><center><h2>Aire Acondicionado LG basico de 12,000 BTU</h2></center></th><p>
+      </tr>
+      &nbsp<p>
+      <tr>
+      <td bgcolor="white">
+      &nbsp<p>
+
+      <p><center>Capacidad - <B>12,000 BTU</B></center></p>
+     
+      <p><center>Tecnologia Compresor - <b>Basico</b></center></p>
+      <p><center>Color - <b>Silver</b></center></p>
+      <p><center>Eficiencia Electrica - <b>SEER 17</b></center></p>
+      <p><center>Refrijerante - <b>R410A</b></center></p>
+      &nbsp<p>
+      <center><h3><font color="Blue"><b>Envio Gratis</b></font></h3></center>
+      &nbsp<p>
+      <center> <H2><font color=red><i>L 25,595.00</i></font></h2>
+
+
+
+ &nbsp<p>
+
+     <P><a href="A05.html"><INPUT type=submit  value="Comprar"></a> </p>
+      &nbsp<p>
+      <hr size=1 color="blue">
+     &nbsp<p>
+      </td>
+      </table>
+      &nbsp<p>  
+      <hr size=1 color="blue">
+      </div>
+      &nbsp<p>
+
+
+
+
+      <div id="Contenido6">
+      </div>  
+      <div id="info">
+      <center><table border="2">
+      <tr>
+      <th bgcolor="#26E836"><center><h2>Aire Acondicionado LG basico de 12,000 BTU</h2></center></th><p>
+      </tr>
+      &nbsp<p>
+      <tr>
+      <td bgcolor="white">
+      &nbsp<p>
+
+      <p><center>Capacidad - <B>12,000 BTU</B></center></p>
+     
+      <p><center>Tecnologia Compresor - <b>DUAL COOL</b></center></p>
+       <p><center>Refrijerante - <b>R410A</b></center></p>
+      <p><center>Eficiencia Electrica - <b>SEER 18er></p>
+      &nbsp<p>
+      <center><h3><font color="Blue"><b>Envio Gratis</b></font></h3></center>
+      &nbsp<p>
+      <center> <H2><font color=red><i>L 16,500.00</i></font></h2>
+ &nbsp<p>
+
+     <P><a href="Error.html"><INPUT type=submit  value="Comprar"></a> </p>
+      &nbsp<p>
+      <hr size=1 color="blue">
+     &nbsp<p>
+      </td>
+      </table>
+      &nbsp<p>  
+      <hr size=1 color="blue">
+      </div>
+      &nbsp<p>
+
+
+      <div id="Contenido7">
+      </div>  
+      <div id="info">
+      <center><table border="2">
+      <tr>
+      <th bgcolor="#26E836"><center><h2>Aire Acondicionado LG basico de 20,000 BTU</h2></center></th><p>
+      </tr>
+      &nbsp<p>
+      <tr>
+      <td bgcolor="white">
+      &nbsp<p>
+
+      <p><center>Capacidad - <B>20,000 BTU</B></center></p>
+     
+      <p><center>Tecnologia Compresor - <b>DUAL COOL</b></center></p>
+       <p><center>Refrijerante - <b>R410A</b></center></p>
+      <p><center>Eficiencia Electrica - <b>SEER 17er></p>
+      &nbsp<p>
+      <center><h3><font color="Blue"><b>Envio Gratis</b></font></h3></center>
+      &nbsp<p>
+      <center> <H2><font color=red><i>L 14,500.00</i></font></h2>
+
+ &nbsp<p>
+
+
+     <P><a href="A07.html"><INPUT type=submit  value="Comprar"></a> </p>
+      &nbsp<p>
+      <hr size=1 color="blue">
+     &nbsp<p>
+      </td>
+      </table>
+      &nbsp<p>  
+      <hr size=1 color="blue">
+      </div>
+      &nbsp<p>
+
+
+
+
+
+
+ 
+     
+</div>
+      <div id="Derechos">
+<img src="imagenes/contactar.png" width="300" height="100" />
+&nbsp&nbsp
+<img src="imagenes/face.png" width="300" height="100" />
+&nbsp
+<img src="imagenes/Jorge.png" width="300" height="100" />
+      </div> 
+</body>
+</html>
